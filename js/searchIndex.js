@@ -291,6 +291,16 @@ Search.appendIndex(
             "summary": "Recebe\u0020o\u0020n\u00FAmero\u0020USP\u0020e\u0020devolve\u0020array\u0020com\u0020os\u0020livros\u0020publicados\u0020cadastrados\u0020no\u0020curr\u00EDculo\u0020Lattes,\ncom\u0020o\u0020respectivo\u0020t\u00EDtulo\u0020do\u0020livro,\u0020ano,\u0020n\u00FAmero\u0020de\u0020p\u00E1ginas,\u0020nome\u0020da\u0020editora\u0020e\u0020autores",
             "url": "../classes/Uspdev-Replicado-Lattes.html#method_getLivrosPublicados"
         },                {
+            "fqsen": "\\Uspdev\\Replicado\\Lattes\u003A\u003AgetTextosJornaisRevistas\u0028\u0029",
+            "name": "getTextosJornaisRevistas",
+            "summary": "Recebe\u0020o\u0020n\u00FAmero\u0020USP\u0020e\u0020devolve\u0020array\u0020com\u0020os\u0020textos\u0020em\u0020revistas\u0020ou\u0020jornais\u0020publicados\u0020cadastrados\u0020no\u0020curr\u00EDculo\u0020Lattes",
+            "url": "../classes/Uspdev-Replicado-Lattes.html#method_getTextosJornaisRevistas"
+        },                {
+            "fqsen": "\\Uspdev\\Replicado\\Lattes\u003A\u003AgetOutrasProducoesBibliograficas\u0028\u0029",
+            "name": "getOutrasProducoesBibliograficas",
+            "summary": "Recebe\u0020o\u0020n\u00FAmero\u0020USP\u0020e\u0020devolve\u0020array\u0020com\u0020as\u0020\u0022outras\u0022\u0020produ\u00E7\u00F5es\u0020bibliogr\u00E1ficas,\u0020uma\u0020subcategoria\u0020das\u0020produ\u00E7\u00F5es,\u0020cadastrados\u0020no\u0020curr\u00EDculo\u0020Lattes",
+            "url": "../classes/Uspdev-Replicado-Lattes.html#method_getOutrasProducoesBibliograficas"
+        },                {
             "fqsen": "\\Uspdev\\Replicado\\Lattes\u003A\u003AgetCapitulosLivros\u0028\u0029",
             "name": "getCapitulosLivros",
             "summary": "Recebe\u0020o\u0020n\u00FAmero\u0020USP\u0020e\u0020devolve\u0020array\u0020com\u0020os\u00205\u0020\u00FAltimos\u0020cap\u00EDtulos\u0020de\u0020livros\u0020publicados\u0020cadastrados\u0020no\u0020curr\u00EDculo\u0020Lattes,\ncom\u0020o\u0020respectivo\u0020t\u00EDtulo\u0020do\u0020cap\u00EDtulo,\u0020t\u00EDtulo\u0020do\u0020livro,\u0020n\u00FAmero\u0020de\u0020volumes,\u0020p\u00E1gina\u0020inicial\u0020e\u0020final\u0020do\u0020cap\u00EDtulo,\u0020ano\u0020e\u0020nome\u0020da\u0020editora.",
