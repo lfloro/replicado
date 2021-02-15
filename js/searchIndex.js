@@ -301,6 +301,11 @@ Search.appendIndex(
             "summary": "Recebe\u0020o\u0020n\u00FAmero\u0020USP\u0020e\u0020devolve\u0020array\u0020com\u0020os\u0020trabalhos\u0020em\u0020eventos\/anais\u0020cadastrados\u0020no\u0020curr\u00EDculo\u0020Lattes",
             "url": "../classes/Uspdev-Replicado-Lattes.html#method_getTrabalhosAnais"
         },                {
+            "fqsen": "\\Uspdev\\Replicado\\Lattes\u003A\u003AgetTrabalhosTecnicos\u0028\u0029",
+            "name": "getTrabalhosTecnicos",
+            "summary": "Recebe\u0020o\u0020n\u00FAmero\u0020USP\u0020e\u0020devolve\u0020array\u0020com\u0020os\u0020trabalhos\u0020t\u00E9cnicos\u0020cadastrados\u0020no\u0020curr\u00EDculo\u0020Lattes",
+            "url": "../classes/Uspdev-Replicado-Lattes.html#method_getTrabalhosTecnicos"
+        },                {
             "fqsen": "\\Uspdev\\Replicado\\Lattes\u003A\u003AgetOutrasProducoesBibliograficas\u0028\u0029",
             "name": "getOutrasProducoesBibliograficas",
             "summary": "Recebe\u0020o\u0020n\u00FAmero\u0020USP\u0020e\u0020devolve\u0020array\u0020com\u0020as\u0020\u0022outras\u0022\u0020produ\u00E7\u00F5es\u0020bibliogr\u00E1ficas,\u0020uma\u0020subcategoria\u0020das\u0020produ\u00E7\u00F5es,\u0020cadastrados\u0020no\u0020curr\u00EDculo\u0020Lattes",
@@ -571,6 +576,16 @@ Search.appendIndex(
             "summary": "Retorna\u0020lista\u0020de\u0020alunos\u0020que\u0020defenderam\u0020p\u00F3s\u002Dgradua\u00E7\u00E3o\u0020em\u0020determinada\u0020\u00E1rea",
             "url": "../classes/Uspdev-Replicado-Posgraduacao.html#method_egressosArea"
         },                {
+            "fqsen": "\\Uspdev\\Replicado\\Posgraduacao\u003A\u003AcontarEgressosAreaAgrupadoPorAno\u0028\u0029",
+            "name": "contarEgressosAreaAgrupadoPorAno",
+            "summary": "Retorna\u0020lista\u0020de\u0020alunos\u0020que\u0020defenderam\u0020p\u00F3s\u002Dgradua\u00E7\u00E3o\u0020em\u0020determinada\u0020\u00E1rea",
+            "url": "../classes/Uspdev-Replicado-Posgraduacao.html#method_contarEgressosAreaAgrupadoPorAno"
+        },                {
+            "fqsen": "\\Uspdev\\Replicado\\Posgraduacao\u003A\u003AcontarAtivos\u0028\u0029",
+            "name": "contarAtivos",
+            "summary": "M\u00E9todo\u0020para\u0020retornar\u0020quantidade\u0020alunos\u0020de\u0020p\u00F3s\u002Dgradua\u00E7\u00E3o\u0020em\u0020uma\u0020\u00E1rea\u0020\u0028codare\u0029",
+            "url": "../classes/Uspdev-Replicado-Posgraduacao.html#method_contarAtivos"
+        },                {
             "fqsen": "\\Uspdev\\Replicado\\Posgraduacao\u003A\u003AcontarAtivosPorGenero\u0028\u0029",
             "name": "contarAtivosPorGenero",
             "summary": "M\u00E9todo\u0020para\u0020retornar\u0020quantidade\u0020alunos\u0020de\u0020p\u00F3s\u002Dgradua\u00E7\u00E3o\u0020do\u0020g\u00EAnero\ne\u0020programa\u0020\u0028opcional\u0029\u0020especificado",
@@ -605,6 +620,11 @@ Search.appendIndex(
             "name": "obterDefesas",
             "summary": "Obter\u0020todas\u0020defesas\u0020conclu\u00EDdas\u0020de\u0020uma\u0020pessoa",
             "url": "../classes/Uspdev-Replicado-Posgraduacao.html#method_obterDefesas"
+        },                {
+            "fqsen": "\\Uspdev\\Replicado\\Posgraduacao\u003A\u003AobterAtivosPorArea\u0028\u0029",
+            "name": "obterAtivosPorArea",
+            "summary": "Retorna\u0020nome\u0020e\u0020n\u00FAmero\u0020USP\u0020dos\u0020alunos\u0020ativos\u0020nos\u0020programas\u0020de\u0020p\u00F3s\u002Dgradua\u00E7\u00E3o\u0020na\u0020unidade",
+            "url": "../classes/Uspdev-Replicado-Posgraduacao.html#method_obterAtivosPorArea"
         },                {
             "fqsen": "\\Uspdev\\Replicado\\Uteis",
             "name": "Uteis",

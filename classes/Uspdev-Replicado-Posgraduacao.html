@@ -112,6 +112,10 @@
             <dd>Retorna nome completo do idioma da disciplina</dd>
                 <dt><a href="../classes/Uspdev-Replicado-Posgraduacao.html#method_egressosArea">egressosArea()</a> : array</dt>
             <dd>Retorna lista de alunos que defenderam pós-graduação em determinada área</dd>
+                <dt><a href="../classes/Uspdev-Replicado-Posgraduacao.html#method_contarEgressosAreaAgrupadoPorAno">contarEgressosAreaAgrupadoPorAno()</a> : array</dt>
+            <dd>Retorna lista de alunos que defenderam pós-graduação em determinada área</dd>
+                <dt><a href="../classes/Uspdev-Replicado-Posgraduacao.html#method_contarAtivos">contarAtivos()</a> : void</dt>
+            <dd>Método para retornar quantidade alunos de pós-graduação em uma área (codare)</dd>
                 <dt><a href="../classes/Uspdev-Replicado-Posgraduacao.html#method_contarAtivosPorGenero">contarAtivosPorGenero()</a> : void</dt>
             <dd>Método para retornar quantidade alunos de pós-graduação do gênero
 e programa (opcional) especificado</dd>
@@ -131,6 +135,8 @@ a partir do número USP do orientador.</dd>
             <dd>Listar defesas em um intervalo de tempo</dd>
                 <dt><a href="../classes/Uspdev-Replicado-Posgraduacao.html#method_obterDefesas">obterDefesas()</a> : array</dt>
             <dd>Obter todas defesas concluídas de uma pessoa</dd>
+                <dt><a href="../classes/Uspdev-Replicado-Posgraduacao.html#method_obterAtivosPorArea">obterAtivosPorArea()</a> : array</dt>
+            <dd>Retorna nome e número USP dos alunos ativos nos programas de pós-graduação na unidade</dd>
                 </dl>
 
 
@@ -855,7 +861,7 @@ O nome desse método reflete o nome da tabela no BD.</p></section>
     <aside class="phpdocumentor-element-found-in">
         <abbr class="phpdocumentor-element-found-in__file" title="src/Posgraduacao.php"><a href="../files/src-posgraduacao.html"><abbr title="src/Posgraduacao.php">Posgraduacao.php</abbr></a></abbr>
         :
-        <span class="phpdocumentor-element-found-in__line">441</span>
+        <span class="phpdocumentor-element-found-in__line">440</span>
     </aside>
         <p class="phpdocumentor-summary">Retorna lista de alunos que defenderam pós-graduação em determinada área</p>
         <code class="phpdocumentor-signature phpdocumentor-code ">
@@ -888,6 +894,107 @@ O nome desse método reflete o nome da tabela no BD.</p></section>
         <span class="phpdocumentor-signature__response_type">array</span>
             
 </article>
+                                    <a id="method_contarEgressosAreaAgrupadoPorAno"></a>
+<article
+        class="
+            phpdocumentor-method
+            phpdocumentor-method--public
+                                    phpdocumentor-element--static                    "
+>
+    <h4 class="phpdocumentor-method__name">contarEgressosAreaAgrupadoPorAno()</h4>
+    <aside class="phpdocumentor-element-found-in">
+        <abbr class="phpdocumentor-element-found-in__file" title="src/Posgraduacao.php"><a href="../files/src-posgraduacao.html"><abbr title="src/Posgraduacao.php">Posgraduacao.php</abbr></a></abbr>
+        :
+        <span class="phpdocumentor-element-found-in__line">459</span>
+    </aside>
+        <p class="phpdocumentor-summary">Retorna lista de alunos que defenderam pós-graduação em determinada área</p>
+        <code class="phpdocumentor-signature phpdocumentor-code ">
+        <span class="phpdocumentor-signature__visibility">public</span>
+                        <span class="phpdocumentor-signature__static">static</span>        <span class="phpdocumentor-signature__name">contarEgressosAreaAgrupadoPorAno</span>(
+                    <span class="phpdocumentor-signature__argument">
+                            <span class="phpdocumentor-signature__argument__name">$codare</span> :
+                <span class="phpdocumentor-signature__argument__return-type">int</span>
+                            </span>
+                )
+        : <span class="phpdocumentor-signature__response_type">array</span>
+    </code>
+
+    
+            <h5 class="phpdocumentor-argument-list__heading">Parameters</h5>
+        <dl class="phpdocumentor-argument-list">
+                            <dt class="phpdocumentor-argument-list__entry">
+                    <span class="phpdocumentor-signature__argument__name">$codare</span>
+                    : <span class="phpdocumentor-signature__argument__return-type">int</span>
+                                    </dt>
+                <dd class="phpdocumentor-argument-list__definition"><section class="phpdocumentor-description"><ul>
+<li>código da área do programa de pós graduação</li>
+</ul></section></dd>
+                    </dl>
+    
+    
+    <h5 class="phpdocumentor-tag-list__heading">Tags</h5>
+    <dl class="phpdocumentor-tag-list">
+                                    <dt class="phpdocumentor-tag-list__entry">
+                    <span class="phpdocumentor-tag__name">author</span>
+                </dt>
+                <dd class="phpdocumentor-tag-list__definition">
+                                                                                                    <section class="phpdocumentor-description"><p>Thiago Gomes Veríssimo <a href="mailto:thiago.verissimo@usp.br">thiago.verissimo@usp.br</a></p></section>
+                </dd>
+                            <dt class="phpdocumentor-tag-list__entry">
+                    <span class="phpdocumentor-tag__name">author</span>
+                </dt>
+                <dd class="phpdocumentor-tag-list__definition">
+                                                                                                    <section class="phpdocumentor-description"><p>Gabriela dos Reis Silva <a href="mailto:gabrielareisg@usp.br">gabrielareisg@usp.br</a></p></section>
+                </dd>
+                        </dl>
+
+
+            <h5 class="phpdocumentor-return-value__heading">Return values</h5>
+        <span class="phpdocumentor-signature__response_type">array</span>
+            
+</article>
+                                    <a id="method_contarAtivos"></a>
+<article
+        class="
+            phpdocumentor-method
+            phpdocumentor-method--public
+                                    phpdocumentor-element--static                    "
+>
+    <h4 class="phpdocumentor-method__name">contarAtivos()</h4>
+    <aside class="phpdocumentor-element-found-in">
+        <abbr class="phpdocumentor-element-found-in__file" title="src/Posgraduacao.php"><a href="../files/src-posgraduacao.html"><abbr title="src/Posgraduacao.php">Posgraduacao.php</abbr></a></abbr>
+        :
+        <span class="phpdocumentor-element-found-in__line">482</span>
+    </aside>
+        <p class="phpdocumentor-summary">Método para retornar quantidade alunos de pós-graduação em uma área (codare)</p>
+        <code class="phpdocumentor-signature phpdocumentor-code ">
+        <span class="phpdocumentor-signature__visibility">public</span>
+                        <span class="phpdocumentor-signature__static">static</span>        <span class="phpdocumentor-signature__name">contarAtivos</span>(
+                    <span class="phpdocumentor-signature__argument">
+            [                <span class="phpdocumentor-signature__argument__name">$codare</span> :
+                <span class="phpdocumentor-signature__argument__return-type">int</span>
+                 = <span class="phpdocumentor-signature__argument__default-value">null</span> ]            </span>
+                )
+        : <span class="phpdocumentor-signature__response_type">void</span>
+    </code>
+
+        <section class="phpdocumentor-description"><p>Se $codare não for informado irá retornar a quantidade de alunos de pós-graduação de todos os programas.
+Se for informado, irá retornar a quantidade de alunos de pós-graduação somente da área</p></section>
+    
+            <h5 class="phpdocumentor-argument-list__heading">Parameters</h5>
+        <dl class="phpdocumentor-argument-list">
+                            <dt class="phpdocumentor-argument-list__entry">
+                    <span class="phpdocumentor-signature__argument__name">$codare</span>
+                    : <span class="phpdocumentor-signature__argument__return-type">int</span>
+                     = <span class="phpdocumentor-signature__argument__default-value">null</span>                </dt>
+                <dd class="phpdocumentor-argument-list__definition"><section class="phpdocumentor-description"><p>(optional) - código da área pertencente a um programa de pós.</p></section></dd>
+                    </dl>
+    
+    
+
+
+    
+</article>
                                     <a id="method_contarAtivosPorGenero"></a>
 <article
         class="
@@ -899,7 +1006,7 @@ O nome desse método reflete o nome da tabela no BD.</p></section>
     <aside class="phpdocumentor-element-found-in">
         <abbr class="phpdocumentor-element-found-in__file" title="src/Posgraduacao.php"><a href="../files/src-posgraduacao.html"><abbr title="src/Posgraduacao.php">Posgraduacao.php</abbr></a></abbr>
         :
-        <span class="phpdocumentor-element-found-in__line">471</span>
+        <span class="phpdocumentor-element-found-in__line">506</span>
     </aside>
         <p class="phpdocumentor-summary">Método para retornar quantidade alunos de pós-graduação do gênero
 e programa (opcional) especificado</p>
@@ -951,7 +1058,7 @@ Se for informado, irá retornar a quantidade de alunos de pós-graduação somen
     <aside class="phpdocumentor-element-found-in">
         <abbr class="phpdocumentor-element-found-in__file" title="src/Posgraduacao.php"><a href="../files/src-posgraduacao.html"><abbr title="src/Posgraduacao.php">Posgraduacao.php</abbr></a></abbr>
         :
-        <span class="phpdocumentor-element-found-in__line">500</span>
+        <span class="phpdocumentor-element-found-in__line">535</span>
     </aside>
         <code class="phpdocumentor-signature phpdocumentor-code ">
         <span class="phpdocumentor-signature__visibility">public</span>
@@ -1001,7 +1108,7 @@ Se for informado, irá retornar a quantidade de alunos de pós-graduação somen
     <aside class="phpdocumentor-element-found-in">
         <abbr class="phpdocumentor-element-found-in__file" title="src/Posgraduacao.php"><a href="../files/src-posgraduacao.html"><abbr title="src/Posgraduacao.php">Posgraduacao.php</abbr></a></abbr>
         :
-        <span class="phpdocumentor-element-found-in__line">522</span>
+        <span class="phpdocumentor-element-found-in__line">557</span>
     </aside>
         <p class="phpdocumentor-summary">Retorna os membros da banca de um discente
 Pode-se especificar ou não o programa ou o número sequencial</p>
@@ -1062,7 +1169,7 @@ Pode-se especificar ou não o programa ou o número sequencial</p>
     <aside class="phpdocumentor-element-found-in">
         <abbr class="phpdocumentor-element-found-in__file" title="src/Posgraduacao.php"><a href="../files/src-posgraduacao.html"><abbr title="src/Posgraduacao.php">Posgraduacao.php</abbr></a></abbr>
         :
-        <span class="phpdocumentor-element-found-in__line">553</span>
+        <span class="phpdocumentor-element-found-in__line">588</span>
     </aside>
         <p class="phpdocumentor-summary">Retorna lista de orientandos ativos de um docente (orientador),
 com o número USP, nome, o respectivo nível de programa de pós graduação
@@ -1106,7 +1213,7 @@ com o número USP, nome, o respectivo nível de programa de pós graduação
     <aside class="phpdocumentor-element-found-in">
         <abbr class="phpdocumentor-element-found-in__file" title="src/Posgraduacao.php"><a href="../files/src-posgraduacao.html"><abbr title="src/Posgraduacao.php">Posgraduacao.php</abbr></a></abbr>
         :
-        <span class="phpdocumentor-element-found-in__line">571</span>
+        <span class="phpdocumentor-element-found-in__line">606</span>
     </aside>
         <p class="phpdocumentor-summary">Retorna lista de orientandos que já concluíram seus programas (Mestrado, Doutorado ou Doutorado Direto),
 a partir do número USP do orientador.</p>
@@ -1150,7 +1257,7 @@ a partir do número USP do orientador.</p>
     <aside class="phpdocumentor-element-found-in">
         <abbr class="phpdocumentor-element-found-in__file" title="src/Posgraduacao.php"><a href="../files/src-posgraduacao.html"><abbr title="src/Posgraduacao.php">Posgraduacao.php</abbr></a></abbr>
         :
-        <span class="phpdocumentor-element-found-in__line">586</span>
+        <span class="phpdocumentor-element-found-in__line">621</span>
     </aside>
         <p class="phpdocumentor-summary">Listar defesas em um intervalo de tempo</p>
         <code class="phpdocumentor-signature phpdocumentor-code ">
@@ -1192,7 +1299,7 @@ a partir do número USP do orientador.</p>
     <aside class="phpdocumentor-element-found-in">
         <abbr class="phpdocumentor-element-found-in__file" title="src/Posgraduacao.php"><a href="../files/src-posgraduacao.html"><abbr title="src/Posgraduacao.php">Posgraduacao.php</abbr></a></abbr>
         :
-        <span class="phpdocumentor-element-found-in__line">608</span>
+        <span class="phpdocumentor-element-found-in__line">643</span>
     </aside>
         <p class="phpdocumentor-summary">Obter todas defesas concluídas de uma pessoa</p>
         <code class="phpdocumentor-signature phpdocumentor-code ">
@@ -1217,6 +1324,70 @@ a partir do número USP do orientador.</p>
                     </dl>
     
     
+
+
+            <h5 class="phpdocumentor-return-value__heading">Return values</h5>
+        <span class="phpdocumentor-signature__response_type">array</span>
+            
+</article>
+                                    <a id="method_obterAtivosPorArea"></a>
+<article
+        class="
+            phpdocumentor-method
+            phpdocumentor-method--public
+                                    phpdocumentor-element--static                    "
+>
+    <h4 class="phpdocumentor-method__name">obterAtivosPorArea()</h4>
+    <aside class="phpdocumentor-element-found-in">
+        <abbr class="phpdocumentor-element-found-in__file" title="src/Posgraduacao.php"><a href="../files/src-posgraduacao.html"><abbr title="src/Posgraduacao.php">Posgraduacao.php</abbr></a></abbr>
+        :
+        <span class="phpdocumentor-element-found-in__line">661</span>
+    </aside>
+        <p class="phpdocumentor-summary">Retorna nome e número USP dos alunos ativos nos programas de pós-graduação na unidade</p>
+        <code class="phpdocumentor-signature phpdocumentor-code ">
+        <span class="phpdocumentor-signature__visibility">public</span>
+                        <span class="phpdocumentor-signature__static">static</span>        <span class="phpdocumentor-signature__name">obterAtivosPorArea</span>(
+                    <span class="phpdocumentor-signature__argument">
+                            <span class="phpdocumentor-signature__argument__name">$codare</span> :
+                <span class="phpdocumentor-signature__argument__return-type">int</span>
+                            </span>
+                    <span class="phpdocumentor-signature__argument">
+            ,                 <span class="phpdocumentor-signature__argument__name">$codundclg</span> :
+                <span class="phpdocumentor-signature__argument__return-type">int</span>
+                            </span>
+                )
+        : <span class="phpdocumentor-signature__response_type">array</span>
+    </code>
+
+    
+            <h5 class="phpdocumentor-argument-list__heading">Parameters</h5>
+        <dl class="phpdocumentor-argument-list">
+                            <dt class="phpdocumentor-argument-list__entry">
+                    <span class="phpdocumentor-signature__argument__name">$codare</span>
+                    : <span class="phpdocumentor-signature__argument__return-type">int</span>
+                                    </dt>
+                <dd class="phpdocumentor-argument-list__definition"><section class="phpdocumentor-description"><ul>
+<li>código da área do programa de pós graduação</li>
+</ul></section></dd>
+                            <dt class="phpdocumentor-argument-list__entry">
+                    <span class="phpdocumentor-signature__argument__name">$codundclg</span>
+                    : <span class="phpdocumentor-signature__argument__return-type">int</span>
+                                    </dt>
+                <dd class="phpdocumentor-argument-list__definition"><section class="phpdocumentor-description"><ul>
+<li>código da unidade</li>
+</ul></section></dd>
+                    </dl>
+    
+    
+    <h5 class="phpdocumentor-tag-list__heading">Tags</h5>
+    <dl class="phpdocumentor-tag-list">
+                                    <dt class="phpdocumentor-tag-list__entry">
+                    <span class="phpdocumentor-tag__name">author</span>
+                </dt>
+                <dd class="phpdocumentor-tag-list__definition">
+                                                                                                    <section class="phpdocumentor-description"><p>gabrielareisg em 11/02/2021</p></section>
+                </dd>
+                        </dl>
 
 
             <h5 class="phpdocumentor-return-value__heading">Return values</h5>
