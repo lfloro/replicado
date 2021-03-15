@@ -231,110 +231,150 @@ Search.appendIndex(
             "summary": "Recebe\u0020o\u0020n\u00FAmero\u0020USP\u0020e\u0020retorna\u0020o\u0020ID\u0020Lattes\u0020da\u0020pessoa.",
             "url": "../classes/Uspdev-Replicado-Lattes.html#method_id"
         },                {
-            "fqsen": "\\Uspdev\\Replicado\\Lattes\u003A\u003AgetZip\u0028\u0029",
-            "name": "getZip",
+            "fqsen": "\\Uspdev\\Replicado\\Lattes\u003A\u003AobterZip\u0028\u0029",
+            "name": "obterZip",
             "summary": "Recebe\u0020o\u0020n\u00FAmero\u0020USP\u0020e\u0020retorna\u0020o\u0020bin\u00E1rio\u0020zip\u0020do\u0020lattes",
-            "url": "../classes/Uspdev-Replicado-Lattes.html#method_getZip"
+            "url": "../classes/Uspdev-Replicado-Lattes.html#method_obterZip"
         },                {
             "fqsen": "\\Uspdev\\Replicado\\Lattes\u003A\u003AsaveZip\u0028\u0029",
             "name": "saveZip",
             "summary": "Recebe\u0020o\u0020n\u00FAmero\u0020USP\u0020e\u0020salva\u0020o\u0020zip\u0020do\u0020lattes",
             "url": "../classes/Uspdev-Replicado-Lattes.html#method_saveZip"
         },                {
-            "fqsen": "\\Uspdev\\Replicado\\Lattes\u003A\u003AsaveXml\u0028\u0029",
-            "name": "saveXml",
+            "fqsen": "\\Uspdev\\Replicado\\Lattes\u003A\u003AverificarXml\u0028\u0029",
+            "name": "verificarXml",
             "summary": "Recebe\u0020o\u0020n\u00FAmero\u0020USP\u0020e\u0020salva\u0020o\u0020xml\u0020do\u0020lattes",
-            "url": "../classes/Uspdev-Replicado-Lattes.html#method_saveXml"
+            "url": "../classes/Uspdev-Replicado-Lattes.html#method_verificarXml"
         },                {
-            "fqsen": "\\Uspdev\\Replicado\\Lattes\u003A\u003AgetXml\u0028\u0029",
-            "name": "getXml",
+            "fqsen": "\\Uspdev\\Replicado\\Lattes\u003A\u003AobterXml\u0028\u0029",
+            "name": "obterXml",
             "summary": "Recebe\u0020o\u0020n\u00FAmero\u0020USP\u0020e\u0020devolve\u0020XML\u0020do\u0020lattes",
-            "url": "../classes/Uspdev-Replicado-Lattes.html#method_getXml"
+            "url": "../classes/Uspdev-Replicado-Lattes.html#method_obterXml"
         },                {
-            "fqsen": "\\Uspdev\\Replicado\\Lattes\u003A\u003AgetJson\u0028\u0029",
-            "name": "getJson",
+            "fqsen": "\\Uspdev\\Replicado\\Lattes\u003A\u003AobterJson\u0028\u0029",
+            "name": "obterJson",
             "summary": "Recebe\u0020o\u0020n\u00FAmero\u0020USP\u0020e\u0020devolve\u0020json\u0020do\u0020lattes",
-            "url": "../classes/Uspdev-Replicado-Lattes.html#method_getJson"
+            "url": "../classes/Uspdev-Replicado-Lattes.html#method_obterJson"
         },                {
-            "fqsen": "\\Uspdev\\Replicado\\Lattes\u003A\u003AgetArray\u0028\u0029",
-            "name": "getArray",
+            "fqsen": "\\Uspdev\\Replicado\\Lattes\u003A\u003AobterArray\u0028\u0029",
+            "name": "obterArray",
             "summary": "Recebe\u0020o\u0020n\u00FAmero\u0020USP\u0020e\u0020devolve\u0020array\u0020do\u0020lattes",
-            "url": "../classes/Uspdev-Replicado-Lattes.html#method_getArray"
+            "url": "../classes/Uspdev-Replicado-Lattes.html#method_obterArray"
         },                {
-            "fqsen": "\\Uspdev\\Replicado\\Lattes\u003A\u003AgetPremios\u0028\u0029",
-            "name": "getPremios",
+            "fqsen": "\\Uspdev\\Replicado\\Lattes\u003A\u003AlistarPremios\u0028\u0029",
+            "name": "listarPremios",
             "summary": "Recebe\u0020o\u0020n\u00FAmero\u0020USP\u0020e\u0020devolve\u0020array\u0020dos\u0020pr\u00EAmios\u0020e\u0020t\u00EDtulos\u0020cadastros\u0020no\u0020curr\u00EDculo\u0020Lattes,\ncom\u0020o\u0020respectivo\u0020ano\u0020de\u0020pr\u00EAmia\u00E7\u00E3o",
-            "url": "../classes/Uspdev-Replicado-Lattes.html#method_getPremios"
+            "url": "../classes/Uspdev-Replicado-Lattes.html#method_listarPremios"
         },                {
-            "fqsen": "\\Uspdev\\Replicado\\Lattes\u003A\u003AgetResumoCV\u0028\u0029",
-            "name": "getResumoCV",
+            "fqsen": "\\Uspdev\\Replicado\\Lattes\u003A\u003AretornarResumoCV\u0028\u0029",
+            "name": "retornarResumoCV",
             "summary": "Recebe\u0020o\u0020n\u00FAmero\u0020USP\u0020e\u0020devolve\u0020o\u0020resumo\u0020do\u0020curr\u00EDculo\u0020do\u0020lattes",
-            "url": "../classes/Uspdev-Replicado-Lattes.html#method_getResumoCV"
+            "url": "../classes/Uspdev-Replicado-Lattes.html#method_retornarResumoCV"
         },                {
-            "fqsen": "\\Uspdev\\Replicado\\Lattes\u003A\u003AgetUltimaAtualizacao\u0028\u0029",
-            "name": "getUltimaAtualizacao",
+            "fqsen": "\\Uspdev\\Replicado\\Lattes\u003A\u003AretornarUltimaAtualizacao\u0028\u0029",
+            "name": "retornarUltimaAtualizacao",
             "summary": "Recebe\u0020o\u0020n\u00FAmero\u0020USP\u0020e\u0020devolve\u0020a\u0020\u00FAltima\u0020atualiza\u00E7\u00E3o\u0020do\u0020curr\u00EDculo\u0020do\u0020lattes",
-            "url": "../classes/Uspdev-Replicado-Lattes.html#method_getUltimaAtualizacao"
+            "url": "../classes/Uspdev-Replicado-Lattes.html#method_retornarUltimaAtualizacao"
         },                {
-            "fqsen": "\\Uspdev\\Replicado\\Lattes\u003A\u003AgetArtigos\u0028\u0029",
-            "name": "getArtigos",
+            "fqsen": "\\Uspdev\\Replicado\\Lattes\u003A\u003AlistarArtigos\u0028\u0029",
+            "name": "listarArtigos",
             "summary": "Recebe\u0020o\u0020n\u00FAmero\u0020USP\u0020e\u0020devolve\u0020array\u0020com\u0020os\u0020\u00FAltimos\u0020artigos\u0020cadastrados\u0020no\u0020curr\u00EDculo\u0020Lattes,\ncom\u0020o\u0020respectivo\u0020t\u00EDtulo\u0020do\u0020artigo,\u0020nome\u0020da\u0020revista\u0020ou\u0020per\u00EDodico,\u0020volume,\u0020n\u00FAmero\u0020de\u0020p\u00E1ginas\u0020e\u0020ano\u0020de\u0020publica\u00E7\u00E3o",
-            "url": "../classes/Uspdev-Replicado-Lattes.html#method_getArtigos"
+            "url": "../classes/Uspdev-Replicado-Lattes.html#method_listarArtigos"
         },                {
-            "fqsen": "\\Uspdev\\Replicado\\Lattes\u003A\u003AgetLinhasPesquisa\u0028\u0029",
-            "name": "getLinhasPesquisa",
+            "fqsen": "\\Uspdev\\Replicado\\Lattes\u003A\u003AlistarLinhasPesquisa\u0028\u0029",
+            "name": "listarLinhasPesquisa",
             "summary": "Recebe\u0020o\u0020n\u00FAmero\u0020USP\u0020e\u0020devolve\u0020a\u0020linha\u0020de\u0020pesquisa",
-            "url": "../classes/Uspdev-Replicado-Lattes.html#method_getLinhasPesquisa"
+            "url": "../classes/Uspdev-Replicado-Lattes.html#method_listarLinhasPesquisa"
         },                {
-            "fqsen": "\\Uspdev\\Replicado\\Lattes\u003A\u003AgetLivrosPublicados\u0028\u0029",
-            "name": "getLivrosPublicados",
+            "fqsen": "\\Uspdev\\Replicado\\Lattes\u003A\u003AlistarLivrosPublicados\u0028\u0029",
+            "name": "listarLivrosPublicados",
             "summary": "Recebe\u0020o\u0020n\u00FAmero\u0020USP\u0020e\u0020devolve\u0020array\u0020com\u0020os\u0020livros\u0020publicados\u0020cadastrados\u0020no\u0020curr\u00EDculo\u0020Lattes,\ncom\u0020o\u0020respectivo\u0020t\u00EDtulo\u0020do\u0020livro,\u0020ano,\u0020n\u00FAmero\u0020de\u0020p\u00E1ginas,\u0020nome\u0020da\u0020editora\u0020e\u0020autores",
-            "url": "../classes/Uspdev-Replicado-Lattes.html#method_getLivrosPublicados"
+            "url": "../classes/Uspdev-Replicado-Lattes.html#method_listarLivrosPublicados"
         },                {
-            "fqsen": "\\Uspdev\\Replicado\\Lattes\u003A\u003AgetTextosJornaisRevistas\u0028\u0029",
-            "name": "getTextosJornaisRevistas",
+            "fqsen": "\\Uspdev\\Replicado\\Lattes\u003A\u003AlistarTextosJornaisRevistas\u0028\u0029",
+            "name": "listarTextosJornaisRevistas",
             "summary": "Recebe\u0020o\u0020n\u00FAmero\u0020USP\u0020e\u0020devolve\u0020array\u0020com\u0020os\u0020textos\u0020em\u0020revistas\u0020ou\u0020jornais\u0020publicados\u0020cadastrados\u0020no\u0020curr\u00EDculo\u0020Lattes",
-            "url": "../classes/Uspdev-Replicado-Lattes.html#method_getTextosJornaisRevistas"
+            "url": "../classes/Uspdev-Replicado-Lattes.html#method_listarTextosJornaisRevistas"
         },                {
-            "fqsen": "\\Uspdev\\Replicado\\Lattes\u003A\u003AgetTrabalhosAnais\u0028\u0029",
-            "name": "getTrabalhosAnais",
+            "fqsen": "\\Uspdev\\Replicado\\Lattes\u003A\u003AlistarTrabalhosAnais\u0028\u0029",
+            "name": "listarTrabalhosAnais",
             "summary": "Recebe\u0020o\u0020n\u00FAmero\u0020USP\u0020e\u0020devolve\u0020array\u0020com\u0020os\u0020trabalhos\u0020em\u0020eventos\/anais\u0020cadastrados\u0020no\u0020curr\u00EDculo\u0020Lattes",
-            "url": "../classes/Uspdev-Replicado-Lattes.html#method_getTrabalhosAnais"
+            "url": "../classes/Uspdev-Replicado-Lattes.html#method_listarTrabalhosAnais"
         },                {
-            "fqsen": "\\Uspdev\\Replicado\\Lattes\u003A\u003AgetTrabalhosTecnicos\u0028\u0029",
-            "name": "getTrabalhosTecnicos",
+            "fqsen": "\\Uspdev\\Replicado\\Lattes\u003A\u003AlistarTrabalhosTecnicos\u0028\u0029",
+            "name": "listarTrabalhosTecnicos",
             "summary": "Recebe\u0020o\u0020n\u00FAmero\u0020USP\u0020e\u0020devolve\u0020array\u0020com\u0020os\u0020trabalhos\u0020t\u00E9cnicos\u0020cadastrados\u0020no\u0020curr\u00EDculo\u0020Lattes",
-            "url": "../classes/Uspdev-Replicado-Lattes.html#method_getTrabalhosTecnicos"
+            "url": "../classes/Uspdev-Replicado-Lattes.html#method_listarTrabalhosTecnicos"
         },                {
-            "fqsen": "\\Uspdev\\Replicado\\Lattes\u003A\u003AgetOutrasProducoesBibliograficas\u0028\u0029",
-            "name": "getOutrasProducoesBibliograficas",
+            "fqsen": "\\Uspdev\\Replicado\\Lattes\u003A\u003AlistarOrganizacaoEvento\u0028\u0029",
+            "name": "listarOrganizacaoEvento",
+            "summary": "Recebe\u0020o\u0020n\u00FAmero\u0020USP\u0020e\u0020devolve\u0020array\u0020com\u0020as\u0020\u0022outras\u0022\u0020produ\u00E7\u00F5es\u0020t\u00E9cnicas\u0020cadastradas\u0020no\u0020curr\u00EDculo\u0020Lattes,\u0020identidicadas\u0020como\u0020\u0027Demais\u0020tipos\u0020de\u0020produ\u00E7\u00E3o\u0020t\u00E9cnica\u0027",
+            "url": "../classes/Uspdev-Replicado-Lattes.html#method_listarOrganizacaoEvento"
+        },                {
+            "fqsen": "\\Uspdev\\Replicado\\Lattes\u003A\u003AlistarOutrasProducoesTecnicas\u0028\u0029",
+            "name": "listarOutrasProducoesTecnicas",
+            "summary": "Recebe\u0020o\u0020n\u00FAmero\u0020USP\u0020e\u0020devolve\u0020array\u0020com\u0020as\u0020\u0022outras\u0022\u0020produ\u00E7\u00F5es\u0020t\u00E9cnicas\u0020cadastradas\u0020no\u0020curr\u00EDculo\u0020Lattes,\u0020identidicadas\u0020como\u0020\u0027Demais\u0020tipos\u0020de\u0020produ\u00E7\u00E3o\u0020t\u00E9cnica\u0027",
+            "url": "../classes/Uspdev-Replicado-Lattes.html#method_listarOutrasProducoesTecnicas"
+        },                {
+            "fqsen": "\\Uspdev\\Replicado\\Lattes\u003A\u003AlistarCursosCurtaDuracao\u0028\u0029",
+            "name": "listarCursosCurtaDuracao",
+            "summary": "Recebe\u0020o\u0020n\u00FAmero\u0020USP\u0020e\u0020devolve\u0020array\u0020os\u0020cursos\u0020de\u0020curta\u0020dura\u00E7\u00E3o\u0020ministrados\u0020cadastrados\u0020no\u0020curr\u00EDculo\u0020Lattes",
+            "url": "../classes/Uspdev-Replicado-Lattes.html#method_listarCursosCurtaDuracao"
+        },                {
+            "fqsen": "\\Uspdev\\Replicado\\Lattes\u003A\u003AlistarRelatoriopesquisa\u0028\u0029",
+            "name": "listarRelatoriopesquisa",
+            "summary": "Recebe\u0020o\u0020n\u00FAmero\u0020USP\u0020e\u0020devolve\u0020array\u0020os\u0020relat\u00F3rios\u0020de\u0020pesquisa\u0020cadastrados\u0020no\u0020curr\u00EDculo\u0020Lattes",
+            "url": "../classes/Uspdev-Replicado-Lattes.html#method_listarRelatoriopesquisa"
+        },                {
+            "fqsen": "\\Uspdev\\Replicado\\Lattes\u003A\u003AlistarMaterialDidaticoInstrucional\u0028\u0029",
+            "name": "listarMaterialDidaticoInstrucional",
+            "summary": "Recebe\u0020o\u0020n\u00FAmero\u0020USP\u0020e\u0020devolve\u0020array\u0020com\u0020os\u0020materiais\u0020did\u00E1ticos\u0020ou\u0020instrucionais\u0020do\u0020autor\u0020cadastrados\u0020no\u0020curr\u00EDculo\u0020Lattes",
+            "url": "../classes/Uspdev-Replicado-Lattes.html#method_listarMaterialDidaticoInstrucional"
+        },                {
+            "fqsen": "\\Uspdev\\Replicado\\Lattes\u003A\u003AlistarOutrasProducoesBibliograficas\u0028\u0029",
+            "name": "listarOutrasProducoesBibliograficas",
             "summary": "Recebe\u0020o\u0020n\u00FAmero\u0020USP\u0020e\u0020devolve\u0020array\u0020com\u0020as\u0020\u0022outras\u0022\u0020produ\u00E7\u00F5es\u0020bibliogr\u00E1ficas,\u0020uma\u0020subcategoria\u0020das\u0020produ\u00E7\u00F5es,\u0020cadastrados\u0020no\u0020curr\u00EDculo\u0020Lattes",
-            "url": "../classes/Uspdev-Replicado-Lattes.html#method_getOutrasProducoesBibliograficas"
+            "url": "../classes/Uspdev-Replicado-Lattes.html#method_listarOutrasProducoesBibliograficas"
         },                {
-            "fqsen": "\\Uspdev\\Replicado\\Lattes\u003A\u003AgetCapitulosLivros\u0028\u0029",
-            "name": "getCapitulosLivros",
+            "fqsen": "\\Uspdev\\Replicado\\Lattes\u003A\u003AlistarCapitulosLivros\u0028\u0029",
+            "name": "listarCapitulosLivros",
             "summary": "Recebe\u0020o\u0020n\u00FAmero\u0020USP\u0020e\u0020devolve\u0020array\u0020com\u0020os\u00205\u0020\u00FAltimos\u0020cap\u00EDtulos\u0020de\u0020livros\u0020publicados\u0020cadastrados\u0020no\u0020curr\u00EDculo\u0020Lattes,\ncom\u0020o\u0020respectivo\u0020t\u00EDtulo\u0020do\u0020cap\u00EDtulo,\u0020t\u00EDtulo\u0020do\u0020livro,\u0020n\u00FAmero\u0020de\u0020volumes,\u0020p\u00E1gina\u0020inicial\u0020e\u0020final\u0020do\u0020cap\u00EDtulo,\u0020ano\u0020e\u0020nome\u0020da\u0020editora.",
-            "url": "../classes/Uspdev-Replicado-Lattes.html#method_getCapitulosLivros"
+            "url": "../classes/Uspdev-Replicado-Lattes.html#method_listarCapitulosLivros"
         },                {
-            "fqsen": "\\Uspdev\\Replicado\\Lattes\u003A\u003AgetTeses\u0028\u0029",
-            "name": "getTeses",
+            "fqsen": "\\Uspdev\\Replicado\\Lattes\u003A\u003AlistarTeses\u0028\u0029",
+            "name": "listarTeses",
             "summary": "Recebe\u0020o\u0020n\u00FAmero\u0020USP\u0020e\u0020devolve\u0020array\u0020com\u0020o\u0020t\u00EDtulo\u0020e\u0020ano\u0020da\u0020tese\u0020especificada\u0020\u0028MESTRADO\u0020ou\u0020DOUTORADO\u0029,\u0020cadastrada\u0020no\u0020curr\u00EDculo\u0020Lattes.",
-            "url": "../classes/Uspdev-Replicado-Lattes.html#method_getTeses"
+            "url": "../classes/Uspdev-Replicado-Lattes.html#method_listarTeses"
         },                {
-            "fqsen": "\\Uspdev\\Replicado\\Lattes\u003A\u003AgetLivreDocencia\u0028\u0029",
-            "name": "getLivreDocencia",
+            "fqsen": "\\Uspdev\\Replicado\\Lattes\u003A\u003AobterLivreDocencia\u0028\u0029",
+            "name": "obterLivreDocencia",
             "summary": "Recebe\u0020o\u0020n\u00FAmero\u0020USP\u0020e\u0020retorna\u0020array\u0020com\u0020o\u0020t\u00EDtulo\u0020da\u0020tese\u0020de\u0020Livre\u002DDoc\u00EAncia,\u0020cadastrada\u0020no\u0020curr\u00EDculo\u0020Lattes.",
-            "url": "../classes/Uspdev-Replicado-Lattes.html#method_getLivreDocencia"
+            "url": "../classes/Uspdev-Replicado-Lattes.html#method_obterLivreDocencia"
         },                {
-            "fqsen": "\\Uspdev\\Replicado\\Lattes\u003A\u003AgetBancaMestrado\u0028\u0029",
-            "name": "getBancaMestrado",
+            "fqsen": "\\Uspdev\\Replicado\\Lattes\u003A\u003AretornarBancaMestrado\u0028\u0029",
+            "name": "retornarBancaMestrado",
             "summary": "Recebe\u0020o\u0020n\u00FAmero\u0020USP\u0020e\u0020retorna\u0020array\u0020com\u0020os\u0020t\u00EDtulo\u0020das\u0020teses\u0020de\u0020Mestrado\u0020onde\u0020o\u0020docente\u0020particiou\u0020como\u0020integrante\u0020da\u0020banca\u0020avaliadora.",
-            "url": "../classes/Uspdev-Replicado-Lattes.html#method_getBancaMestrado"
+            "url": "../classes/Uspdev-Replicado-Lattes.html#method_retornarBancaMestrado"
         },                {
-            "fqsen": "\\Uspdev\\Replicado\\Lattes\u003A\u003AgetBancaDoutorado\u0028\u0029",
-            "name": "getBancaDoutorado",
+            "fqsen": "\\Uspdev\\Replicado\\Lattes\u003A\u003AretornarBancaDoutorado\u0028\u0029",
+            "name": "retornarBancaDoutorado",
             "summary": "Recebe\u0020o\u0020n\u00FAmero\u0020USP\u0020e\u0020retorna\u0020array\u0020com\u0020os\u0020t\u00EDtulo\u0020das\u0020teses\u0020de\u0020Doutorado\u0020onde\u0020o\u0020docente\u0020particiou\u0020como\u0020integrante\u0020da\u0020banca\u0020avaliadora.",
-            "url": "../classes/Uspdev-Replicado-Lattes.html#method_getBancaDoutorado"
+            "url": "../classes/Uspdev-Replicado-Lattes.html#method_retornarBancaDoutorado"
+        },                {
+            "fqsen": "\\Uspdev\\Replicado\\Lattes\u003A\u003AretornarFormacaoAcademica\u0028\u0029",
+            "name": "retornarFormacaoAcademica",
+            "summary": "Recebe\u0020o\u0020n\u00FAmero\u0020USP\u0020e\u0020retorna\u0020array\u0020com\u0020o\u0020t\u00EDtulo\u0020do\u0020trabalho,\u0020nome\u0020da\u0020institui\u00E7\u00E3o\u0020e\u0020ano\u0020da\u0020forma\u00E7\u00E3o\u0020acad\u00EAmica,\u0020sendo\u0020Gradu\u00E7\u00E3o,\u0020Doutorado,\u0020etc.",
+            "url": "../classes/Uspdev-Replicado-Lattes.html#method_retornarFormacaoAcademica"
+        },                {
+            "fqsen": "\\Uspdev\\Replicado\\Lattes\u003A\u003AlistarFormacaoProfissional\u0028\u0029",
+            "name": "listarFormacaoProfissional",
+            "summary": "Recebe\u0020o\u0020n\u00FAmero\u0020USP\u0020e\u0020retorna\u0020array\u0020com\u0020os\u0020v\u00EDnculos\u0020profissionais\u0020atuais\u003A\u0020nome\u0020da\u0020institui\u00E7\u00E3o,\u0020ano\u0020de\u0020inicio\u0020e\nano\u0020fim,\u0020tipo\u0020de\u0020v\u00EDnculo\u0020e\u0020outras\u0020informa\u00E7\u00F5es.",
+            "url": "../classes/Uspdev-Replicado-Lattes.html#method_listarFormacaoProfissional"
+        },                {
+            "fqsen": "\\Uspdev\\Replicado\\Lattes\u003A\u003AlistarRadioTV\u0028\u0029",
+            "name": "listarRadioTV",
+            "summary": "Recebe\u0020o\u0020n\u00FAmero\u0020USP\u0020e\u0020retorna\u0020array\u0020com\u0020as\u0020participa\u00E7\u00F5es\u0020em\u0020r\u00E1dio\u0020ou\u0020TV\u0020presente\u0020no\u0020curr\u00EDculo\u0020Lattes,\u0020com\u0020o\u0020t\u00EDtulo\u0020da\u0020entrevista,\nemissora\u0020e\u0020nome\u0020para\u0020cita\u00E7\u00E3o.",
+            "url": "../classes/Uspdev-Replicado-Lattes.html#method_listarRadioTV"
         },                {
             "fqsen": "\\Uspdev\\Replicado\\Pessoa",
             "name": "Pessoa",
@@ -445,6 +485,16 @@ Search.appendIndex(
             "name": "ativosVinculo",
             "summary": "M\u00E9todo\u0020para\u0020retornar\u0020\u002Aarray\u002A\u0020com\u0020todas\u0020as\u0020pessoas\u0020ativas\u0020por\u0020v\u00EDnculo\nSomente\u0020ATIVOS\u0020\u0028tamb\u00E9m\u0020Docente\u0020Aposentado\u0029\nSe\u0020o\u0020terceiro\u0020par\u00E2metro\u0020\u002A\u0024contar\u002A\u0020for\u0020igual\u0020a\u00201,\u0020retorna\u0020um\u0020\u002Aarray\u002A\ncom\u0020o\u0020\u00EDndice\u0020\u002Atotal\u002A\u0020que\u0020corresponde\u0020ao\u0020n\u00FAmero\u0020total\u0020de\u0020pessoas\u0020do\u0020tipo\u0020de\u0020v\u00EDnculo",
             "url": "../classes/Uspdev-Replicado-Pessoa.html#method_ativosVinculo"
+        },                {
+            "fqsen": "\\Uspdev\\Replicado\\Pessoa\u003A\u003AlistarServidoresSetor\u0028\u0029",
+            "name": "listarServidoresSetor",
+            "summary": "M\u00E9todo\u0020para\u0020retornar\u0020\u002Aarray\u002A\u0020com\u0020a\u0020lista\u0020de\u0020servidores\u0020\u0028docentes,\u0020funcion\u00E1rios\u0020e\u0020estagi\u00E1rios\u0029\u0020por\u0020setor\u0028es\u0029\nSe\u0020aposentados\u0020\u003D\u00201,\u0020lista\u0020tamb\u00E9m\u0020os\u0020docentes\u0020aposentados\u0020\u0028stiatl\u0020\u003D\u0020\u0027P\u0027\u0020AND\u0020tipvinext\u0020NOT\u0020IN\u0020\u0028\u0027Servidor\u0020Aposentado\u0027\u0029",
+            "url": "../classes/Uspdev-Replicado-Pessoa.html#method_listarServidoresSetor"
+        },                {
+            "fqsen": "\\Uspdev\\Replicado\\Pessoa\u003A\u003AcontarServidoresSetor\u0028\u0029",
+            "name": "contarServidoresSetor",
+            "summary": "M\u00E9todo\u0020para\u0020retornar\u0020o\u0020total\u0020de\u0020servidores\u0020\u0028docentes,\u0020funcion\u00E1rios\u0020e\u0020estagi\u00E1rios\u0029\u0020por\u0020setor\u0028es\u0029\nSe\u0020aposentados\u0020\u003D\u00201,\u0020conta\u0020tamb\u00E9m\u0020os\u0020docentes\u0020aposentados\u0020\u0028stiatl\u0020\u003D\u0020\u0027P\u0027\u0020AND\u0020tipvinext\u0020NOT\u0020IN\u0020\u0028\u0027Servidor\u0020Aposentado\u0027\u0029",
+            "url": "../classes/Uspdev-Replicado-Pessoa.html#method_contarServidoresSetor"
         },                {
             "fqsen": "\\Uspdev\\Replicado\\Pessoa\u003A\u003AvinculosSetores\u0028\u0029",
             "name": "vinculosSetores",
